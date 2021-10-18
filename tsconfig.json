@@ -15,9 +15,14 @@
     "strictNullChecks": true,
     "resolveJsonModule": true,
     "sourceMap": true,
-    "baseUrl": "."
+    "baseUrl": ".",
+    "types": ["@types/fs-extra","@types/node"],
+    "skipLibCheck": true
   },
-  "include": [
+  "includes": [
     "./src"
+  ],
+  "exclude": [
+    "./node_modules"
   ]
 }
