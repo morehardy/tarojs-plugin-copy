@@ -26,8 +26,17 @@
   "author": "morehardy",
   "license": "MIT",
   "devDependencies": {
+    "@tarojs/service": "^3.3.10",
     "@types/node": "^13.9.8",
     "rimraf": "^3.0.2",
     "typescript": "^3.9.10"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/morehardy/tarojs-plugin-copy"
+  },
+  "bugs": {
+    "url": "https://github.com/morehardy/tarojs-plugin-copy/issues"
+  },
+  "homepage": "https://github.com/morehardy/tarojs-plugin-copy/readme"
 }
