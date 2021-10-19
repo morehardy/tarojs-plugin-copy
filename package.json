@@ -1,0 +1,42 @@
+{
+  "name": "tarojs-plugin-copy",
+  "version": "1.0.0",
+  "description": "Taro 复制插件",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run clean && npm run prod",
+    "dev": "tsc -w",
+    "prod": "tsc",
+    "clean": "rimraf dist"
+  },
+  "files": [
+    "src",
+    "dist",
+    "index.js",
+    "package.json"
+  ],
+  "keywords": [
+    "Taro",
+    "copy",
+    "file",
+    "move",
+    "path",
+    "directory"
+  ],
+  "author": "morehardy",
+  "license": "MIT",
+  "devDependencies": {
+    "@tarojs/service": "^3.3.10",
+    "@types/node": "^13.9.8",
+    "rimraf": "^3.0.2",
+    "typescript": "^3.9.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/morehardy/tarojs-plugin-copy"
+  },
+  "bugs": {
+    "url": "https://github.com/morehardy/tarojs-plugin-copy/issues"
+  },
+  "homepage": "https://github.com/morehardy/tarojs-plugin-copy/readme"
+}
