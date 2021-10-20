@@ -16,7 +16,7 @@
     "resolveJsonModule": true,
     "sourceMap": true,
     "baseUrl": ".",
-    "types": ["@types/fs-extra","@types/node"],
+    "types": ["@types/node"],
     "skipLibCheck": true
   },
   "includes": [
